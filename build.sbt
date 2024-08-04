@@ -12,6 +12,7 @@ lazy val root = (project in file("."))
       "dev.zio"              %% "zio"            % "1.0.12",
       "dev.zio"              %% "zio-macros"     % "1.0.12",
       "io.github.kitlangton" %% "zio-magic"      % "0.3.11",
+      "org.slf4j"             % "slf4j-simple"   % "2.0.13",
       "dev.zio"              %% "zio-test"       % "1.0.12" % Test
     ),
     scalacOptions ++= Seq("-Ymacro-annotations"),
